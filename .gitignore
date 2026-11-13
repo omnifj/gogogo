@@ -1,0 +1,36 @@
+# ===== 编译产物 =====
+# Windows 可执行文件
+*.exe
+*.exe~
+# 其他平台可执行文件 / 动态库 / 静态库
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+# go build 默认输出的与目录同名的二进制
+/go-learning
+/01-basics/01-basics
+/02-intermediate/02-intermediate
+/03-advanced/03-advanced
+
+# ===== 测试产物与缓存 =====
+# 覆盖率文件
+*.out
+coverage.txt
+# 性能分析产物
+*.pprof
+*.prof
+# 测试编译出的二进制
+*.test
+
+# ===== IDE / 编辑器文件 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
